@@ -1,0 +1,405 @@
+[
+  {
+    "id": "argentina",
+    "name": "Argentina",
+    "status": "proyectos",
+    "approach": "principios",
+    "prohibitions": "no",
+    "genai": "no",
+    "authority": null,
+    "instruments": [
+      {
+        "name": "Disposición 2/2023 – Recomendaciones para una Inteligencia Artificial Fiable (Subsecretaría de Tecnologías de la Información, Jefatura de Gabinete de Ministros)",
+        "type": "guia",
+        "date": "2023-06",
+        "status": "Publicada en el Boletín Oficial el 2 de junio de 2023; son recomendaciones no vinculantes para proyectos de IA del sector público",
+        "url": "https://www.argentina.gob.ar/normativa/nacional/384656/texto"
+      },
+      {
+        "name": "Mensaje N° 187/26 y Proyecto de Ley General de Sociedades (Expte. PE-193/26)",
+        "type": "proyecto",
+        "date": "2026-06",
+        "status": "Ingresó al Senado el 1 de junio de 2026; está en la Comisión de Legislación General y no tiene dictamen. No es una ley de IA, pero crea figuras como las sociedades automatizadas y las DAO",
+        "url": "https://www.senado.gob.ar/parlamentario/comisiones/verExp/193.26/PE/PL"
+      }
+    ],
+    "summary": "Argentina no tiene una ley general de inteligencia artificial, y ninguno de los numerosos proyectos presentados en el Congreso obtuvo media sanción. El único instrumento nacional específico son las recomendaciones de 2023 para una IA fiable en el sector público, que no son vinculantes. En 2026 el Poder Ejecutivo envió al Senado una reforma de la Ley de Sociedades que habilita empresas operadas por sistemas de IA (\"sociedades automatizadas\"), y el proyecto sigue en comisión sin dictamen.",
+    "sources": [
+      "https://www.argentina.gob.ar/normativa/nacional/384656/texto",
+      "https://www.diariojudicial.com/news-95140-recomendaciones-argentas-para-una-ia-fiable",
+      "https://www.senado.gob.ar/parlamentario/comisiones/verExp/193.26/PE/PL",
+      "https://www.argentina.gob.ar/noticias/el-proyecto-de-reforma-de-la-ley-general-de-sociedades-fue-presentado-en-el-senado",
+      "https://www.infobae.com/politica/2026/09/11/no-se-puede-tratar-ante-la-alerta-global-por-la-ia-el-gobierno-pierde-apoyo-para-impulsar-un-proyecto-clave-en-el-congreso/",
+      "https://www.parlamentario.com/2025/11/11/con-rechazo-del-oficialismo-avanzo-un-proyecto-sobre-marco-regulatorio-de-la-ia/"
+    ],
+    "uncertain": [
+      "El sitio de la Cámara de Diputados (hcdn.gob.ar) bloqueó o no devolvió las fichas, así que no pude verificar en fuente oficial el estado de los proyectos de IA de 2026 (por ejemplo el 3330-D-2026 de Brügge, que según resultados de búsqueda incluye un registro de sistemas de alto riesgo y la identificación de contenido generado por IA).",
+      "En noviembre de 2025 la Comisión de Ciencia y Tecnología de Diputados firmó un dictamen de mayoría (impulsado por Gollán, con disidencia de LLA) sobre un marco regulatorio de IA basado en riesgos. Según Parlamentario, ese dictamen caía con la nueva composición de la Cámara en diciembre de 2025. No confirmé si se retomó.",
+      "No pude confirmar si la Disposición 2/2023 sigue siendo aplicada por el gobierno actual. Se clasificó el enfoque como \"principios\" por ser el único instrumento específico vigente, aunque la orientación del Ejecutivo en 2026 parece pro-innovación.",
+      "Según Infobae (11/09/2026), el capítulo de sociedades automatizadas perdió apoyos en el Senado. Al 13/11/2026 la ficha oficial no registra dictamen."
+    ],
+    "region": "latam",
+    "checked": "2026-11-13",
+    "reviewed": false
+  },
+  {
+    "id": "brasil",
+    "name": "Brasil",
+    "status": "proyecto-avanzado",
+    "approach": "riesgos",
+    "prohibitions": "propuesto",
+    "genai": "propuesto",
+    "authority": "Propuesto: la ANPD (Autoridade Nacional de Proteção de Dados) como autoridad competente y coordinadora del Sistema Nacional de Regulação e Governança de IA (SIA), junto con autoridades sectoriales",
+    "instruments": [
+      {
+        "name": "Projeto de Lei n° 2338, de 2023 – Dispõe sobre o uso da Inteligência Artificial",
+        "type": "proyecto",
+        "date": "2023-05",
+        "status": "Aprobado por el Senado el 10 dic. 2024 (sustitutivo del relator Eduardo Gomes) y enviado a la Cámara el 17 mar. 2025. En la Cámara está \"Aguardando Parecer do Relator\" (Aguinaldo Ribeiro) en la Comisión Especial, sin dictamen ni votación al 12 nov. 2026",
+        "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262"
+      }
+    ],
+    "summary": "Brasil no tiene una ley general de IA vigente, pero tiene el proyecto más avanzado de la región: el PL 2338/2023, aprobado por el Senado en diciembre de 2024. El texto sigue un modelo de riesgos inspirado en la UE, con usos de \"riesgo excesivo\" prohibidos, obligaciones para la IA generativa y un sistema de gobernanza coordinado por la ANPD. Desde marzo de 2025 espera el dictamen del relator en una comisión especial de la Cámara de Diputados, y si la Cámara lo modifica debe volver al Senado.",
+    "sources": [
+      "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2487262",
+      "https://www25.senado.leg.br/web/atividade/materias/-/materia/157233",
+      "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-temporarias/especiais/57a-legislatura/comissao-especial-sobre-inteligencia-artificial-pl-2338-23/outros-documentos/apresentacao-do-pl-2338-23",
+      "https://teletime.com.br/10/12/2024/pl-que-regula-ia-no-brasil-e-aprovado-no-senado/",
+      "https://tyna.com.br/pl-2338/"
+    ],
+    "uncertain": [
+      "El detalle de prohibiciones (art. 13, riesgo excesivo) y de obligaciones para IA generativa (identificar contenido sintético, evaluación preliminar, documentación en caso de riesgo sistémico) sale de la presentación oficial de la Comisión Especial de la Cámara. No leí el autógrafo completo del Senado.",
+      "Según la prensa (no verificado en fuente oficial), en diciembre de 2025 el gobierno envió un proyecto separado sobre la estructura de gobernanza (SIA) para corregir un vicio de iniciativa, y ese proyecto se incorporaría al PL 2338. Eso podría cambiar el rol de la ANPD.",
+      "Fuentes secundarias indican que el relator postergó la votación hasta después de las elecciones de octubre de 2026. La ficha oficial al 12/11/2026 solo muestra apensamientos de otros proyectos."
+    ],
+    "region": "latam",
+    "checked": "2026-11-13",
+    "reviewed": false
+  },
+  {
+    "id": "chile",
+    "name": "Chile",
+    "status": "proyecto-avanzado",
+    "approach": "riesgos",
+    "prohibitions": "propuesto",
+    "genai": "propuesto",
+    "authority": "Propuesto (texto despachado por la Cámara): la Agencia de Protección de Datos Personales (creada por la Ley 21.719) aplicaría las sanciones. El Ejecutivo anunció una indicación sustitutiva que repartiría funciones entre agencias existentes, coordinadas por el Ministerio de Ciencia",
+    "instruments": [
+      {
+        "name": "Proyecto de ley que regula los sistemas de inteligencia artificial (Boletín N° 16.821-19, refundido con el Boletín N° 15.869-19)",
+        "type": "proyecto",
+        "date": "2024-05",
+        "status": "Aprobado por la Cámara de Diputadas y Diputados y enviado al Senado en oct. 2025. La Comisión de Desafíos del Futuro del Senado lo aprobó en general el 26 oct. 2026 y pasa a la Sala (segundo trámite)",
+        "url": "https://www.minciencia.gob.cl/noticias/proyecto-que-regula-usos-de-la-inteligencia-artificial-avanza-al-senado/"
+      }
+    ],
+    "summary": "Chile no tiene una ley de IA vigente, pero su proyecto, basado en niveles de riesgo, ya fue aprobado por la Cámara de Diputadas y Diputados y está en segundo trámite en el Senado. El 26 de octubre de 2026 la Comisión de Desafíos del Futuro lo aprobó en general y lo envió a la Sala. El Ejecutivo anunció cambios de fondo sobre la institucionalidad y las sanciones.",
+    "sources": [
+      "https://www.minciencia.gob.cl/noticias/proyecto-que-regula-usos-de-la-inteligencia-artificial-avanza-al-senado/",
+      "https://tramitacion.senado.cl/appsenado/index.php?mo=tramitacion&ac=ultimos_vistos",
+      "https://fundacionprogresa.cl/ley-inteligencia-artificial-chile/"
+    ],
+    "uncertain": [
+      "Las páginas de senado.cl y camara.cl devolvieron 403, así que no pude abrir la ficha oficial de tramitación ni el texto despachado por la Cámara.",
+      "La lista de prohibiciones de riesgo inaceptable (reconocimiento de emociones en trabajo y escuela, identificación biométrica remota en tiempo real en espacios públicos con excepciones, scraping facial, puntuación social, entre otras), las obligaciones de transparencia para contenido generado por IA y el rol de la Agencia de Protección de Datos salen de un análisis secundario (Fundación Progresa) y no de la fuente oficial.",
+      "Según esa misma fuente, el plazo para indicaciones propuesto es el 4 dic. 2026 (pendiente de ratificación por la Sala), y el Ejecutivo bajó la urgencia a \"simple\" el 1 sep. 2026. La indicación sustitutiva anunciada podría eliminar las sanciones propias de la ley y cambiar la autoridad."
+    ],
+    "region": "latam",
+    "checked": "2026-11-13",
+    "reviewed": false
+  },
+  {
+    "id": "mexico",
+    "name": "México",
+    "status": "proyectos",
+    "approach": "principios",
+    "prohibitions": "propuesto",
+    "genai": "propuesto",
+    "authority": "Ninguna en vigor. Las iniciativas proponen distintos órganos; según la prensa, el borrador de la comisión de IA del Senado crearía una Autoridad Nacional de IA (no verificado en fuente oficial)",
+    "instruments": [
+      {
+        "name": "Declaración de ética y buenas prácticas para el uso y desarrollo de la inteligencia artificial (Principios de Chapultepec) – Secihti y ATDT",
+        "type": "guia",
+        "date": "2026-01",
+        "status": "Presentada el 29 ene. 2026; es un marco orientador no vinculante",
+        "url": "https://www.secihti.mx/wp-content/uploads/2026/01/Comunicado_conjunto_Secihti_ATDT_IA_29012026.pdf"
+      },
+      {
+        "name": "Iniciativa con proyecto de decreto por el que se expide la Ley General para el Desarrollo de la Inteligencia Artificial y el Impulso del Futuro Digital (senadores del PAN)",
+        "type": "proyecto",
+        "date": "2026-09",
+        "status": "Presentada en el Senado; es una de varias iniciativas pendientes en comisiones, sin dictamen",
+        "url": "http://sil.gobernacion.gob.mx/Archivos/Documentos/2026/09/asun_5145594_20260929_1788971726.pdf"
+      }
+    ],
+    "summary": "México no tiene una ley general de inteligencia artificial, y ninguna de las decenas de iniciativas presentadas en la LXVI Legislatura fue aprobada por alguna de las cámaras. Varias propuestas plantean primero reformar el artículo 73 de la Constitución para darle al Congreso facultades expresas en la materia. En el Ejecutivo rigen los Principios de Chapultepec (enero de 2026), un marco ético no vinculante.",
+    "sources": [
+      "http://sil.gobernacion.gob.mx/Archivos/Documentos/2026/09/asun_5145594_20260929_1788971726.pdf",
+      "https://www.secihti.mx/wp-content/uploads/2026/01/Comunicado_conjunto_Secihti_ATDT_IA_29012026.pdf",
+      "https://www.elobservador.com.uy/estados-unidos/america-latina/mexico-prepara-su-primera-ley-regular-la-ia-que-contempla-penas-prision-practicas-prohibidas-n6041618",
+      "https://www.itsitio.com/mx/inteligencia-artificial/regulacion-de-ia-en-mexico-todavia-no-hay-una-ley-general-pero-las-reglas-ya-avanzan-por-sectores/",
+      "https://www.gtlaw.com/ar/insights/2026/9/plan-nacional-de-inteligencia-artificial"
+    ],
+    "uncertain": [
+      "No hay un proyecto líder claro. La comisión de IA del Senado (presidida por Rolando Zapata Bello) anunció en abril de 2026 una \"Ley General para Regular y Fomentar el Uso de la IA\" con prácticas prohibidas (deepfakes sexuales sin consentimiento, manipulación electoral, vigilancia masiva sin base legal) y una Autoridad Nacional de IA. No pude confirmar en fuente oficial que se haya presentado formalmente. Los campos prohibitions y genai = \"propuesto\" se basan en ese borrador y en iniciativas como la de Monreal (2024), que incluía transparencia de contenido sintético.",
+      "Las páginas de comunicacionsocial.senado.gob.mx (403) y la Gaceta de Diputados (conexión rechazada) no se pudieron abrir.",
+      "Según fuentes secundarias, la ATDT publicó un Plan Nacional de IA en abril de 2026 que no es vinculante. No encontré la URL oficial.",
+      "No verifiqué el estado de las reformas sectoriales (telecomunicaciones, trabajo, Código Penal) que mencionan contenido sintético."
+    ],
+    "region": "latam",
+    "checked": "2026-11-13",
+    "reviewed": false
+  },
+  {
+    "id": "colombia",
+    "name": "Colombia",
+    "status": "proyectos",
+    "approach": "riesgos",
+    "prohibitions": "propuesto",
+    "genai": "propuesto",
+    "authority": "Propuesto (PL 025/2026 Cámara, texto de ponencia): el Ministerio de Ciencia, Tecnología e Innovación como Autoridad Nacional para la IA, coordinado con MinTIC y la Superintendencia de Industria y Comercio en una Comisión Intersectorial de IA",
+    "instruments": [
+      {
+        "name": "Proyecto de Ley 025 de 2026 Cámara – Por medio de la cual se regula la inteligencia artificial en Colombia para garantizar su desarrollo ético y responsable y se dictan otras disposiciones",
+        "type": "proyecto",
+        "date": "2026-07",
+        "status": "Radicado el 21 jul. 2026; en trámite en la Comisión Sexta de la Cámara, con ponencia para primer debate presentada y sin votación",
+        "url": "https://www.camara.gov.co/inteligencia-artificial-2/"
+      },
+      {
+        "name": "Documento CONPES 4144 – Política Nacional de Inteligencia Artificial",
+        "type": "estrategia",
+        "date": "2025-02",
+        "status": "Aprobado el 14 feb. 2025; política pública con horizonte a 2030, no es ley",
+        "url": "https://www.mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/400044:Ante-la-academia-el-Gobierno-Nacional-presento-el-Conpes-de-Inteligencia-Artificial"
+      },
+      {
+        "name": "Ley 2502 de 2025 – modifica el artículo 296 del Código Penal (falsedad personal) y fija lineamientos sobre uso de IA",
+        "type": "ley",
+        "date": "2025-07",
+        "status": "Vigente; agrava la pena por suplantación cometida con IA, define \"deepfake\" y ordena una política pública contra usos dañinos de la IA",
+        "url": "https://normograma.mintic.gov.co/mintic/compilacion/docs/ley_2502_2025.htm"
+      }
+    ],
+    "summary": "Colombia no tiene una ley general de IA. La política se apoya en el CONPES 4144 de 2025, y una ley penal de 2025 agrava la suplantación con IA y define el deepfake. El proyecto del Gobierno de 2025 se archivó sin primer debate. El proyecto principal en trámite, el PL 025 de 2026 Cámara, propone un esquema de riesgos con prohibiciones y señalización de contenido sintético, y espera primer debate en la Comisión Sexta.",
+    "sources": [
+      "https://www.camara.gov.co/inteligencia-artificial-2/",
+      "https://www.camara.gov.co/wp-content/uploads/2026/09/proyectos-ley/publicaciones/proyecto-36127/PPD-PL-025-26C-CON-FIRMAS.pdf",
+      "https://www.mintic.gov.co/portal/inicio/Sala-de-prensa/Noticias/400044:Ante-la-academia-el-Gobierno-Nacional-presento-el-Conpes-de-Inteligencia-Artificial",
+      "https://normograma.mintic.gov.co/mintic/compilacion/docs/ley_2502_2025.htm",
+      "https://porcontar.com/blog/ley-inteligencia-artificial-colombia/"
+    ],
+    "uncertain": [
+      "Las prohibiciones (art. 6: puntuación social por autoridades, identificación biométrica remota en tiempo real con excepciones judiciales, manipulación subliminal, inferencia biométrica de datos sensibles, armas autónomas sin decisión humana) y la señalización de contenido sintético (art. 8) salen del texto propuesto en la ponencia para primer debate y pueden cambiar.",
+      "También está en trámite el PL 065 de 2026 Senado (John Amaya), que según fuentes secundarias le da la vigilancia a la SIC. El PDF oficial es un escaneo y no pude leer su contenido.",
+      "La fecha de aprobación del CONPES 4144 (14 feb. 2025) sale de resultados de búsqueda del DNP/SisCONPES. El PDF oficial del DNP no abrió por un error de certificado.",
+      "Se consideró que la Ley 2502 de 2025 (agravante penal) no equivale a obligaciones de etiquetado para IA generativa, por eso genai = \"propuesto\"."
+    ],
+    "region": "latam",
+    "checked": "2026-11-13",
+    "reviewed": false
+  },
+  {
+    "id": "uruguay",
+    "name": "Uruguay",
+    "status": "sin-ley",
+    "approach": "principios",
+    "prohibitions": "no",
+    "genai": "no",
+    "authority": "Agesic coordina la estrategia nacional de IA y datos (Ley 20.212, art. 74), con la URCDP para datos personales. No hay un regulador específico de IA",
+    "instruments": [
+      {
+        "name": "Ley N° 20.212, artículo 74 (Rendición de Cuentas y Balance de Ejecución Presupuestal, Ejercicio 2022)",
+        "type": "ley",
+        "date": "2023-11",
+        "status": "Vigente; encarga a Agesic una estrategia nacional de datos e IA y recomendaciones regulatorias al Poder Legislativo",
+        "url": "https://impo.com.uy/bases/leyes/20212-2023/74"
+      },
+      {
+        "name": "Estrategia Nacional de Inteligencia Artificial 2024-2030",
+        "type": "estrategia",
+        "date": "2024-11",
+        "status": "Aprobada el 21 nov. 2024 por el Comité Estratégico del Sector Público para IA y Datos",
+        "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/se-aprobo-estrategia-nacional-inteligencia-artificial-2024-2030"
+      },
+      {
+        "name": "Artículo 74 de la Ley Nº 20.212: recomendaciones para una regulación de la Inteligencia Artificial (IA)",
+        "type": "guia",
+        "date": "2024-06",
+        "status": "Informe de Agesic entregado al Poder Legislativo el 28 jun. 2024",
+        "url": "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/publicaciones/informe-sobre-recomendaciones-para-regulacion-inteligencia-artificial"
+      },
+      {
+        "name": "Decreto N° 276/025 – Reglamentación de los arts. 74 y 75 de la Ley N° 20.212 (promoción de proyectos innovadores en datos e IA)",
+        "type": "decreto",
+        "date": "2025-12",
+        "status": "Vigente; publicado el 10 dic. 2025. Crea entornos controlados de prueba (sandbox) y un Comité Técnico de Evaluación",
+        "url": "https://impo.com.uy/bases/decretos/276-2025"
+      }
+    ],
+    "summary": "Uruguay no tiene una ley de IA ni un proyecto general en el Parlamento. Su marco es un mandato legal a Agesic (Ley 20.212, art. 74), la Estrategia Nacional de IA 2024-2030 y un decreto de 2025 que reglamenta entornos de prueba (sandbox) para proyectos de datos e IA. Agesic anunció en 2025 que trabajaría en un proyecto de ley con foco en derechos, pero según la prensa de octubre de 2026 no fue enviado al Parlamento.",
+    "sources": [
+      "https://impo.com.uy/bases/leyes/20212-2023/74",
+      "https://impo.com.uy/bases/decretos/276-2025",
+      "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/noticias/se-aprobo-estrategia-nacional-inteligencia-artificial-2024-2030",
+      "https://www.gub.uy/agencia-gobierno-electronico-sociedad-informacion-conocimiento/comunicacion/publicaciones/informe-sobre-recomendaciones-para-regulacion-inteligencia-artificial",
+      "https://ladiaria.com.uy/economia/articulo/2026/10/inteligencia-artificial-regular-antes-de-depender/"
+    ],
+    "uncertain": [
+      "No pude consultar parlamento.gub.uy. Según la prensa existen proyectos puntuales (etiquetado de contenido con IA de Sartori en 2023, deepfakes electorales de Goñi en 2024, imágenes sexuales falsas en 2025, derechos de autor frente a la IA en 2026), pero no verifiqué su estado. Se eligió \"sin-ley\" porque no hay un proyecto general de IA.",
+      "Según la diaria (29/10/2026), Uruguay firmó el Convenio Marco del Consejo de Europa sobre IA el 2 sep. 2025, y en marzo de 2026 el Ejecutivo dijo que no preveía enviar el proyecto de ley de IA. No lo verifiqué en fuente oficial."
+    ],
+    "region": "latam",
+    "checked": "2026-11-13",
+    "reviewed": false
+  },
+  {
+    "id": "ue",
+    "name": "Unión Europea",
+    "status": "ley-vigente",
+    "approach": "riesgos",
+    "prohibitions": "si",
+    "genai": "si",
+    "authority": "Oficina de IA (AI Office) de la Comisión Europea, junto con las autoridades nacionales de los Estados miembros",
+    "instruments": [
+      {
+        "name": "Reglamento (UE) 2024/1689 – Ley de Inteligencia Artificial (AI Act)",
+        "type": "ley",
+        "date": "2024-08",
+        "status": "Vigente desde ago. 2024. Las prohibiciones rigen desde feb. 2025, las obligaciones para modelos de IA de uso general desde ago. 2025 y la aplicación general desde ago. 2026. Las reglas de alto riesgo arrancan en dic. 2027 (Anexo III) y ago. 2028 (Anexo I)",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+      },
+      {
+        "name": "Reglamento (UE) 2026/1744 – Ómnibus Digital sobre IA (modifica el AI Act)",
+        "type": "ley",
+        "date": "2026-07",
+        "status": "Vigente desde el 27 jul. 2026. Posterga los plazos de alto riesgo y suma una prohibición (deepfakes sexuales no consentidos y material de abuso sexual infantil) que se aplica desde dic. 2026",
+        "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+      }
+    ],
+    "summary": "La Unión Europea tiene una ley horizontal de IA basada en niveles de riesgo, el AI Act, vigente desde agosto de 2024 y aplicable en forma escalonada. Ya rigen las prohibiciones, las obligaciones para modelos de uso general y las de transparencia del artículo 50 (aplicables desde agosto de 2026). En julio de 2026 el Ómnibus Digital postergó las obligaciones para sistemas de alto riesgo a diciembre de 2027 y agosto de 2028, y agregó la prohibición de sistemas que generan imágenes sexuales no consentidas o material de abuso sexual infantil.",
+    "sources": [
+      "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "https://www.actuia.com/en/news/ai-act-obligations-in-force-and-delays-under-omnibus-2026-1744/"
+    ],
+    "uncertain": [
+      "No pude abrir EUR-Lex desde este entorno (error de certificado o conexión), así que las URLs de los instrumentos apuntan a la página oficial de la Comisión Europea. La página cita estas URLs de EUR-Lex, que no abrí: https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32024R1689 y https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=OJ:L_202601744",
+      "Según ActuIA (fuente secundaria), el Ómnibus fija hasta el 2 dic. 2026 el plazo para que los sistemas generativos lanzados antes del 2 ago. 2026 cumplan con el marcado legible por máquina (art. 50.2). No lo verifiqué en el texto del Diario Oficial.",
+      "Según ActuIA, el Ómnibus se publicó en el Diario Oficial el 24 jul. 2026. La Comisión solo confirma la entrada en vigor del 27 jul. 2026.",
+      "Según ActuIA, los sistemas de alto riesgo usados por autoridades públicas tienen plazo hasta el 2 ago. 2030. No lo verifiqué en fuente primaria."
+    ],
+    "region": "referencia",
+    "checked": "2026-11-13",
+    "reviewed": false
+  },
+  {
+    "id": "eeuu",
+    "name": "Estados Unidos",
+    "status": "sin-ley",
+    "approach": "pro-innovacion",
+    "prohibitions": "no",
+    "genai": "no",
+    "authority": null,
+    "instruments": [
+      {
+        "name": "Executive Order 14179 – Removing Barriers to American Leadership in Artificial Intelligence",
+        "type": "decreto",
+        "date": "2025-01",
+        "status": "Vigente desde ene. 2025. Da por revocada la orden 14110 de Biden (2023) y ordena revisar las medidas tomadas bajo ella",
+        "url": "https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/"
+      },
+      {
+        "name": "Winning the AI Race: America's AI Action Plan",
+        "type": "estrategia",
+        "date": "2025-07",
+        "status": "Publicado en jul. 2025. Reúne más de 90 acciones federales en tres pilares: innovación, infraestructura y diplomacia y seguridad",
+        "url": "https://www.whitehouse.gov/releases/2025/07/white-house-unveils-americas-ai-action-plan/"
+      },
+      {
+        "name": "Executive Order 14365 – Ensuring a National Policy Framework for Artificial Intelligence",
+        "type": "decreto",
+        "date": "2025-12",
+        "status": "Vigente desde dic. 2025. Crea un grupo de tareas del Departamento de Justicia para litigar contra leyes estatales de IA y condiciona fondos federales. Por sí sola no deroga leyes estatales",
+        "url": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/"
+      },
+      {
+        "name": "National Policy Framework for Artificial Intelligence – Legislative Recommendations",
+        "type": "proyecto",
+        "date": "2026-03",
+        "status": "Propuesta de la Casa Blanca al Congreso (mar. 2026) para una ley federal uniforme que se imponga sobre las leyes estatales. No hay constancia de que se haya aprobado",
+        "url": "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/"
+      }
+    ],
+    "summary": "Estados Unidos no tiene una ley federal general de IA. La política federal se basa en órdenes ejecutivas orientadas a la innovación: en enero de 2025 se revocó la orden de Biden de 2023, y en diciembre de 2025 se buscó frenar las leyes estatales mediante litigios y condicionamiento de fondos. La Casa Blanca le propuso al Congreso un marco federal que se imponga a las normas estatales, pero hasta noviembre de 2026 no se aprobó ninguna ley con ese efecto. Mientras tanto siguen vigentes leyes estatales como la SB 53 de California (transparencia de modelos de frontera, vigente desde enero de 2026) y la ley de Colorado, reescrita en mayo de 2026 por la SB 26-189 con obligaciones desde enero de 2027.",
+    "sources": [
+      "https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/",
+      "https://www.whitehouse.gov/releases/2025/07/white-house-unveils-americas-ai-action-plan/",
+      "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/",
+      "https://www.whitehouse.gov/releases/2026/03/president-donald-j-trump-unveils-national-ai-legislative-framework/",
+      "https://www.whitehouse.gov/fact-sheets/2026/06/fact-sheet-president-donald-j-trump-promotes-advanced-artificial-intelligence-innovation-and-security/",
+      "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-inaugurates-the-era-of-super-intelligence/",
+      "https://casrai.org/news/federal-ai-moratorium-state-preemption-fight-2026",
+      "https://leg.colorado.gov/bills/sb26-189",
+      "https://www.mofo.com/resources/insights/251001-california-enacts-ai-safety-transparency-regulation-tfaia-sb-53"
+    ],
+    "uncertain": [
+      "No encontré ningún fallo judicial ni demanda concreta del grupo de tareas del Departamento de Justicia contra leyes estatales. La fuente secundaria más reciente que consulté (CASRAI) es del 20 sep. 2026.",
+      "El borrador bipartidista de ley de preemption ('Great American AI Act', jun. 2026) figura solo en una fuente secundaria (CASRAI), según la cual está estancado.",
+      "Hay una orden ejecutiva del 2 jun. 2026 ('Promoting Advanced AI Innovation and Security') sobre ciberseguridad y modelos de frontera. Según la ficha de la Casa Blanca, es voluntaria para la industria. No abrí el texto completo de la orden.",
+      "Según una ficha de la Casa Blanca, una orden del 29 sep. 2026 dispone que el Poder Ejecutivo use el término 'Super Intelligence' en lugar de 'AI'. Cambia la terminología, no la regulación. Conviene tenerlo en cuenta porque los documentos oficiales pueden usar el nombre nuevo.",
+      "Fuentes secundarias indican que la TAKE IT DOWN Act (ley federal de 2025 sobre imágenes íntimas no consentidas, incluidos deepfakes) obliga desde el 19 may. 2026 a las plataformas a retirar ese contenido en 48 horas, bajo supervisión de la FTC. No la verifiqué en fuente primaria ni la conté como prohibición ni como obligación sobre IA generativa.",
+      "No pude abrir la ficha oficial de la SB 53 de California en leginfo.legislature.ca.gov (error 403). La fecha de firma (29 sep. 2025) y la entrada en vigor (1 ene. 2026) salen de un análisis del estudio jurídico Morrison & Foerster."
+    ],
+    "region": "referencia",
+    "checked": "2026-11-13",
+    "reviewed": false
+  },
+  {
+    "id": "china",
+    "name": "China",
+    "status": "sin-ley",
+    "approach": "control-estatal",
+    "prohibitions": "si",
+    "genai": "si",
+    "authority": "Administración del Ciberespacio de China (CAC, 国家互联网信息办公室)",
+    "instruments": [
+      {
+        "name": "生成式人工智能服务管理暂行办法 (Medidas provisionales para la administración de servicios de IA generativa)",
+        "type": "decreto",
+        "date": "2023-07",
+        "status": "Vigente desde el 15 ago. 2023",
+        "url": "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm"
+      },
+      {
+        "name": "人工智能生成合成内容标识办法 (Medidas de etiquetado de contenido generado o sintetizado por IA)",
+        "type": "decreto",
+        "date": "2025-03",
+        "status": "Vigente desde el 1 sep. 2025. Exige etiquetas visibles y metadatos implícitos",
+        "url": "https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm"
+      },
+      {
+        "name": "人工智能拟人化互动服务管理暂行办法 (Medidas provisionales sobre servicios interactivos de IA antropomórfica)",
+        "type": "decreto",
+        "date": "2026-04",
+        "status": "Vigente desde el 15 jul. 2026",
+        "url": "https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm"
+      }
+    ],
+    "summary": "China no tiene una ley general de IA. Regula la tecnología con normas administrativas específicas, encabezadas por la Administración del Ciberespacio (CAC), que cubren la IA generativa, el etiquetado obligatorio del contenido generado y, desde julio de 2026, los servicios de IA de compañía o \"antropomórfica\". La reforma de la Ley de Ciberseguridad, vigente desde enero de 2026, incorporó por primera vez un artículo sobre IA. El plan legislativo del Consejo de Estado para 2026 propone acelerar una ley integral, pero todavía no se publicó ningún borrador.",
+    "sources": [
+      "https://www.cac.gov.cn/2023-07/13/c_1690898327029107.htm",
+      "https://www.cac.gov.cn/2025-03/14/c_1743654684782215.htm",
+      "https://www.cac.gov.cn/2026-04/10/c_1777558395078289.htm",
+      "https://www.caixinglobal.com/2025-10-29/china-amends-cybersecurity-law-to-add-first-ever-ai-clause-102376988.html",
+      "https://www.china-briefing.com/news/china-ai-regulation-2026-new-laws-rules/"
+    ],
+    "uncertain": [
+      "Las fuentes no coinciden en si el plan legislativo 2026 del Comité Permanente de la Asamblea Popular Nacional incluye formalmente una ley de IA (como ítem de estudio preliminar) o no. No pude consultar el plan oficial.",
+      "No leí el texto del nuevo artículo sobre IA de la Ley de Ciberseguridad (reforma del 28 oct. 2025, vigente desde el 1 ene. 2026). Su contenido sale de fuentes secundarias (Caixin, China Briefing).",
+      "Marqué 'prohibitions' como 'si' por dos motivos. Las medidas de IA antropomórfica prohíben ofrecer a menores servicios de vínculos íntimos virtuales, como parejas o familiares virtuales. Este detalle sale del resumen de búsqueda y no lo verifiqué en el articulado. Además, las medidas de IA generativa prohíben ciertos contenidos. No es un régimen de prohibiciones por riesgo como el europeo."
+    ],
+    "region": "referencia",
+    "checked": "2026-11-13",
+    "reviewed": false
+  }
+]
