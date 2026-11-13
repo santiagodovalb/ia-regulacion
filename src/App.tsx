@@ -142,10 +142,7 @@ export default function App() {
               <li key={j.id} id={`j-${j.id}`} className={isOpen ? 'open' : ''}>
                 <button type="button" className="row" aria-expanded={isOpen} onClick={() => setOpen(isOpen ? null : j.id)}>
                   <span className="swatch" style={{ background: statusOf(j.status).color }} aria-hidden="true" />
-                  <span className="row-name">
-                    {j.name}
-                    {j.region === 'referencia' && <small className="ref-tag">Referencia</small>}
-                  </span>
+                  <span className="row-name">{j.name}</span>
                   <span className="row-status">{statusOf(j.status).label}</span>
                   <span className="row-approach">{APPROACH[j.approach]}</span>
                   {!j.reviewed && <span className="badge">Pendiente de revisión</span>}

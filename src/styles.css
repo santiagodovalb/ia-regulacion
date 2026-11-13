@@ -361,13 +361,6 @@ button.pill:hover {
 .row:hover .row-name {
   color: var(--accent);
 }
-.ref-tag {
-  margin-left: 8px;
-  font: 500 0.68rem var(--mono);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--muted);
-}
 .row-name {
   font-weight: 600;
 }
