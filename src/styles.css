@@ -1,17 +1,18 @@
 :root {
   color-scheme: light dark;
-  --bg: light-dark(#f6f3ee, #131210);
-  --surface: light-dark(#fffdf9, #1b1917);
-  --text: light-dark(#1c1a17, #ede8e0);
-  --muted: light-dark(#6b655c, #9b948a);
-  --line: light-dark(#e3ddd3, #2e2b27);
-  --accent: light-dark(#c96442, #e07a55);
-  --accent-soft: light-dark(#f3dfd4, #3a241b);
+  --bg: light-dark(#ffffff, #0f1238);
+  --surface: light-dark(#f4f6ff, #171b4a);
+  --text: light-dark(#14163a, #f4f4ff);
+  --muted: light-dark(#555a80, #a9addb);
+  --line: light-dark(#dde1f5, #2a2f6b);
+  --accent: light-dark(#1b2fb8, #93a3ff); /* cobalt; lighter in dark mode for contrast */
+  --yellow: #ffc531;
+  --tomato: #ff5a36;
   --yes: light-dark(#2f8a5b, #4fb383);
   --maybe: light-dark(#a8761b, #e3b44f);
-  --serif: 'Instrument Serif', Georgia, serif;
-  --sans: 'Geist', system-ui, sans-serif;
-  --mono: 'Geist Mono', ui-monospace, monospace;
+  --display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --sans: 'Bricolage Grotesque', system-ui, sans-serif;
+  --mono: 'DM Mono', ui-monospace, monospace;
 }
 
 /* The toggle sets data-theme; without it, the system setting decides. */
@@ -59,7 +60,9 @@ button {
 }
 
 h1 {
-  font: 400 clamp(2.6rem, 8vw, 4.2rem) / 1.02 var(--serif);
+  font: 800 clamp(2.6rem, 8vw, 4.2rem) / 0.95 var(--display);
+  letter-spacing: -0.035em;
+  color: var(--accent);
   margin: 0 0 14px;
   text-wrap: balance; /* avoids a lone "IA?" on the second line */
 }

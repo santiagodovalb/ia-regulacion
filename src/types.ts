@@ -34,11 +34,11 @@ export type Jurisdiction = {
 // Ordered from least to most binding: the ladder reads left to right.
 // One color per level, yellow → red, shared by the globe, the ladder and the rows.
 export const STATUS: { id: Status; label: string; hint: string; color: string }[] = [
-  { id: 'sin-ley', label: 'Sin ley específica', hint: 'Estrategias, guías o normas sectoriales', color: '#f2d27a' },
-  { id: 'proyectos', label: 'Proyectos de ley', hint: 'Ninguno aprobado por una cámara', color: '#efab58' },
-  { id: 'proyecto-avanzado', label: 'Media sanción', hint: 'Un proyecto general aprobado por una cámara', color: '#e6823f' },
-  { id: 'ley-aprobada', label: 'Ley aprobada', hint: 'Sancionada, todavía no vigente', color: '#d2552e' },
-  { id: 'ley-vigente', label: 'Ley vigente', hint: 'Una ley general de IA en vigor', color: '#ad3420' },
+  { id: 'sin-ley', label: 'Sin ley específica', hint: 'Estrategias, guías o normas sectoriales', color: '#ffe28a' },
+  { id: 'proyectos', label: 'Proyectos de ley', hint: 'Ninguno aprobado por una cámara', color: '#ffc531' },
+  { id: 'proyecto-avanzado', label: 'Media sanción', hint: 'Un proyecto general aprobado por una cámara', color: '#ff8a4c' },
+  { id: 'ley-aprobada', label: 'Ley aprobada', hint: 'Sancionada, todavía no vigente', color: '#ff5a36' },
+  { id: 'ley-vigente', label: 'Ley vigente', hint: 'Una ley general de IA en vigor', color: '#c42a1a' },
 ];
 
 export const statusOf = (s: Status) => STATUS.find((x) => x.id === s)!;
