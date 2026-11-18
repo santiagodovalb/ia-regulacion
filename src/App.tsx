@@ -70,7 +70,7 @@ export default function App() {
         </div>
         <div className="hero">
           <div>
-            <h1>¿Cómo se regula la IA?</h1>
+            <h1>IA y el Estado</h1>
             <p className="lead">
               Cómo están regulando la inteligencia artificial los países de América Latina, comparados con la Unión
               Europea, Estados Unidos y China.

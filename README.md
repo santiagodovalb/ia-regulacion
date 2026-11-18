@@ -1,4 +1,4 @@
-# ¿Cómo se regula la IA?
+# IA y el Estado
 
 How Latin American countries (Argentina, Brazil, Chile, Mexico, Colombia, Uruguay) regulate artificial intelligence, compared with three reference models: the European Union, the United States and China.
 
