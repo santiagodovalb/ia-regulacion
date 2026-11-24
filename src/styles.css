@@ -332,9 +332,9 @@ button.pill:hover {
   margin: 0;
   padding: 0;
   border-top: 1px solid var(--line);
-  /* one grid for all rows (via subgrid) so the column headers line up even when only some rows have a badge */
+  /* one grid for all rows (via subgrid) so the column headers line up with every row */
   display: grid;
-  grid-template-columns: 12px minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr) auto;
+  grid-template-columns: 12px minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr);
   column-gap: 12px;
 }
 .rows > li {
@@ -372,17 +372,6 @@ button.pill:hover {
   color: var(--muted);
   font-size: 0.9rem;
 }
-.badge {
-  font: 500 0.68rem var(--mono);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--maybe);
-  border: 1px solid currentColor;
-  border-radius: 999px;
-  padding: 2px 8px;
-  white-space: nowrap;
-}
-
 .detail {
   grid-column: 1 / -1;
   padding: 4px 4px 24px 26px;
@@ -530,7 +519,7 @@ footer {
     display: none;
   }
   .row {
-    grid-template-columns: 12px minmax(0, 1fr) auto;
+    grid-template-columns: 12px minmax(0, 1fr);
     row-gap: 2px;
   }
   .row-status,
@@ -542,10 +531,6 @@ footer {
   }
   .row-approach::before {
     content: 'Enfoque: ';
-  }
-  .badge {
-    grid-column: 3;
-    grid-row: 1;
   }
   .detail {
     padding-left: 4px;

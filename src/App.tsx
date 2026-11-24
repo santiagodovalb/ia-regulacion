@@ -145,7 +145,6 @@ export default function App() {
                   <span className="row-name">{j.name}</span>
                   <span className="row-status">{statusOf(j.status).label}</span>
                   <span className="row-approach">{APPROACH[j.approach]}</span>
-                  {!j.reviewed && <span className="badge">Pendiente de revisión</span>}
                 </button>
                 {isOpen && (
                   <div className="detail">
