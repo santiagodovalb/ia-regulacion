@@ -41,7 +41,6 @@ export default function App() {
   };
 
   const shown = data.filter((j) => region === 'todas' || j.region === region);
-  const pending = data.filter((j) => !j.reviewed).length;
   const latest = data.map((j) => j.checked).sort().at(-1);
 
   // Clicking a country on the ladder opens its row below.
@@ -217,11 +216,6 @@ export default function App() {
           normas sectoriales). El enfoque es el del instrumento principal o del proyecto más avanzado. “Propuesto” indica
           que la medida figura en un proyecto, no en una norma vigente.
         </p>
-        {pending > 0 && (
-          <p>
-            Borrador: {pending} de {data.length} fichas están pendientes de revisión contra sus fuentes.
-          </p>
-        )}
         {latest && <p>Última revisión: {fmtDay(latest)}.</p>}
       </footer>
     </main>
