@@ -4,7 +4,7 @@ import Globe from './Globe';
 import { APPROACH, INSTRUMENT, STATUS, statusOf, YES_NO, type Jurisdiction } from './types';
 
 const data = raw as Jurisdiction[];
-const PORTFOLIO = 'https://portfolio-santiagodoval.vercel.app/';
+const PORTFOLIO = 'https://santiagodoval.com.ar/';
 const REGIONS = [
   { id: 'todas', label: 'Todas' },
   { id: 'latam', label: 'América Latina' },
